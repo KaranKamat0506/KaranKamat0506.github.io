@@ -1,6 +1,6 @@
 *
 {
-	background: #f1f2f6;
+	background: #17252A;
 	margin: 0;
 	padding: 0;
 }
@@ -16,9 +16,10 @@
 .img-wrapper
 {
 	width: 300px;
-	height: 400px;
+	height: 500px;
 	position: relative;
 	overflow: hidden;
+	border-radius: 30px;
 }
 
 .img-wrapper:before
@@ -42,7 +43,7 @@
 
 .img-wrapper img
 {
-	height: 400px;
+	height: 475px;
 	width: 300px;
 	filter: grayscale(100%);
 	transition: 2s;
@@ -55,9 +56,9 @@
 
 .img-wrapper h2
 {
-	background: tomato;
+	background: #3AAFA9;
 	font-family: Poppins;
-	color: #fff;
+	color: #17252A;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
@@ -67,7 +68,8 @@
 	width: 100%;
 	transform: perspective(400px) rotateY(90deg);
 	transform-origin: right;
-	transition: 1s;
+	transition: .8s;
+	
 }
 
 .img-wrapper:hover h2
@@ -88,14 +90,15 @@
 
 .img-wrapper ul li
 {
-	background: #333;
-	height: 40px;
+	background: transparent;
+	height: 35px;
 	width: 40px;
 	text-align: center;
 	line-height: 40px;
 	transform: perspective(800px) rotateY(90deg);
 	transition: .5s;
 	transform-origin: left;
+	border-radius: 50px;
 }
 
 .img-wrapper:hover ul li
@@ -110,28 +113,28 @@
 
 .img-wrapper:hover ul li:nth-child(2)
 {
-	transition-delay: .6s;
+	transition-delay: .2s;
 }
 
 .img-wrapper:hover ul li:nth-child(3)
 {
-	transition-delay: .8s;
+	transition-delay: .2s;
 }
 
 .img-wrapper ul li a
 {
-	color: tomato;
+	color: #3AAFA9;
 	background: rgba(255,255,255,0);
 }
 
 .img-wrapper ul li i
 {
-	color: tomato;
+	color: #3AAFA9;
 	background: rgba(255,255,255,0);
 }
 
 .img-wrapper ul li i:hover
 {
-	color: #fff;
+	color: #17252A;
 	background: rgba(255,255,255,0);
 }
